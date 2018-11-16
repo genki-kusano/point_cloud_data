@@ -11,7 +11,7 @@ My python codes use matplotlib, mpl_toolkits, argparse, os, numpy
 3. Try `sh compute_pd.sh --data --torus`
 
 Then, `data_tda` folder is created.<br>
-torus.zip is one example.
+`torus.zip` is one example.
 
 This folder contains 
 - point cloud data as m * d matrix where m is the number of points of \mathbb{R}^d<br>
