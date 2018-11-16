@@ -8,7 +8,7 @@ I did this on macOS Mojave 10.14.1, python 3.7.1, homcloud 2.0.0.
    (or open the terminal in the downloaded pcd folder.)
 3. Try `sh compute_pd.sh --data --torus`
 
-Then, a new data_tda folder is created.　　　　
+Then, a new data_tda folder is created.<br>
 torus.zip is one example.
 
 This folder contains 
@@ -23,9 +23,9 @@ This folder contains
 
 # Detailed explanations
 ... will be added later (Nov 16, 2018)
-You can create 4 types of point cloud data from {--lattice, --matern, --circle_svm, --torus} as　　　　
+You can create 4 types of point cloud data from {--lattice, --matern, --circle_svm, --torus} as<br>
 `sh compute_pd.sh --data --lattice`
 
-lattice and mater are simulaton datasets used in Section 6.2 and 6.3 of https://arxiv.org/abs/1803.08269　　　　
-circle_svm is a simulation dataset used in Section 4.2 of http://jmlr.org/papers/v18/17-317.html　　　　
+lattice and mater are simulaton datasets used in Section 6.2 and 6.3 of https://arxiv.org/abs/1803.08269<br>
+circle_svm is a simulation dataset used in Section 4.2 of http://jmlr.org/papers/v18/17-317.html<br>
 for torus, please see about_torus.pdf
