@@ -10,7 +10,7 @@ My python codes use matplotlib, mpl_toolkits, argparse, os, numpy
    (`cd /Users/your_user_name/Desktop/pcd` on the terminalor or open the terminal in the downloaded pcd folder.)
 3. Try `sh compute_pd.sh --data --torus`
 
-Then, a new data_tda folder is created.<br>
+Then, `data_tda` folder is created.<br>
 torus.zip is one example.
 
 This folder contains 
