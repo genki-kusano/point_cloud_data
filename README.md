@@ -8,7 +8,8 @@ I did this on macOS Mojave 10.14.1, python 3.7.1, homcloud 2.0.0.
    (or open the terminal in the downloaded pcd folder.)
 3. Try sh compute_pd.sh --data --torus 
 
-Then, a new data_tda folder is created.
+Then, a new data_tda folder is created. 
+torus.zip is one example.
 
 This folder contains 
 - point cloud data as N * d matrix where N is # of points and d is of \mathbb{R}^d
