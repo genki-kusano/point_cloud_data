@@ -1,5 +1,5 @@
-Edited by Genki Kusano https://sites.google.com/site/genkikusano/home
 This is used to create point cloud data and their persistence diagrams.
+I did this on macOS Mojave 10.14.1, python 3.7.1, homcloud 2.0.0.
 
 # Brief Summary
 0. Download homcloud http://www.wpi-aimr.tohoku.ac.jp/hiraoka_labo/homcloud/index.en.html
