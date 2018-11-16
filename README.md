@@ -1,4 +1,4 @@
-This is used to create point cloud data and their persistence diagrams.　　　
+This is used to create point cloud data and their persistence diagrams.<br>
 I did this on macOS Mojave 10.14.1, python 3.7.1, homcloud 2.0.0.
 
 # Brief Summary
