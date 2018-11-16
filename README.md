@@ -23,5 +23,9 @@ This folder contains
 
 # Detailed explanations
 ... will be added later (Nov 16, 2018)
+You can create 4 types of point cloud data from {--lattice, --matern, --circle_svm, --torus} as 
+sh compute_pd.sh --data --lattice
 
+lattice and mater are simulaton datasets used in Section 6.2 and 6.3 of https://arxiv.org/abs/1803.08269
+circle_svm is a simulation dataset used in Section 4.2 of http://jmlr.org/papers/v18/17-317.html
 for torus, please see about_torus.pdf
