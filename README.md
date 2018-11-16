@@ -12,9 +12,9 @@ Then, a new data_tda folder is created.
 torus.zip is one example.
 
 This folder contains 
-- point cloud data as N * d matrix where N is the number of points and d is of \mathbb{R}^d
+- point cloud data as m * d matrix where m is the number of points of \mathbb{R}^d
   (~/pcd/torus/pcd3_num_40/pcd_pd/pcd_3.txt)
-- persistence diagram as N * 2 matrix, which is a collection of birth and death pairs
+- persistence diagram as n * 2 matrix where m is the number of birth-death pairs
   (~/pcd/torus/pcd3_num_40/pcd_pd/dim1_3.txt, dim1 means the dimension of homology)
 - picture of point cloud data
   (~/pcd/torus/plot_pcd3_num_40/pcd_pd/pcd_3.txt)
