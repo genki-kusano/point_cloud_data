@@ -1,4 +1,5 @@
 Edited by Genki Kusano https://sites.google.com/site/genkikusano/home
+This is used to create point cloud data and their persistence diagrams.
 
 # Brief Summary
 0. Download homcloud http://www.wpi-aimr.tohoku.ac.jp/hiraoka_labo/homcloud/index.en.html
@@ -19,3 +20,5 @@ This folder contains
 
 # Detailed explanations
 ... will be added later (Nov 16, 2018)
+
+for torus, please see about_torus.pdf
