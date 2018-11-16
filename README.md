@@ -3,9 +3,9 @@ I did this on macOS Mojave 10.14.1, python 3.7.1, homcloud 2.0.0.
 
 # Brief Summary
 0. Download homcloud http://www.wpi-aimr.tohoku.ac.jp/hiraoka_labo/homcloud/index.en.html
-1. Download pcd folder to your Desktop
-2. enter `cd /your_user_name/Desktop/pcd` on the terminal
-   (or open the terminal in the downloaded pcd folder.)
+1. Download `pcd` folder to your Desktop
+2. Go to the pcd folder
+   (`cd /your_user_name/Desktop/pcd` on the terminalor or open the terminal in the downloaded pcd folder.)
 3. Try `sh compute_pd.sh --data --torus`
 
 Then, a new data_tda folder is created.<br>
