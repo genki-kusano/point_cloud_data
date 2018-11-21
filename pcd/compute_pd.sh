@@ -8,7 +8,7 @@ echo "Usage: $PROGNAME [OPTIONS] FILE"
 echo
 echo "Options:"
 echo "  -h, --help"
-echo "      --data      : choose from {lattice, matern, circle_svm, torus}"
+echo "      --data      : choose from {lattice, matern, circle, torus}"
 echo "      --path      : path where you want to save data"
 echo "      --num_pd    : number of persistence diagrams"
 echo "      --dim_pcd   : dimension of point cloud data"
@@ -48,7 +48,7 @@ for OPT in "$@"
             name_data="$2"
         fi
 
-        if [ ${name_data} = "circle_svm" ]; then
+        if [ ${name_data} = "circle" ]; then
             num_pd=200
             dim_pcd=3
         elif [ ${name_data} = "torus" ]; then
@@ -211,7 +211,7 @@ elif [ $name_data = "matern" ]; then
             done
         done
 
-elif [ $name_data = "circle_svm" ]; then
+elif [ $name_data = "circle" ]; then
     date
     echo "computing ${num_pd} persistence diagrams of circle_svm"
     cd ${name_dir}/${name_data}/pcd${dim_pcd}_num${num_pd}/pcd_pd
