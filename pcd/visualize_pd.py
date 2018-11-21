@@ -74,7 +74,7 @@ def main():
     parser.add_argument("--path",
                         default="%s/Desktop/data_tda" % os.path.expanduser('~'))
     parser.add_argument("--data", default="lattice",
-                        choices=["lattice", "matern", "circle_svm", "torus"])
+                        choices=["lattice", "matern", "circle", "torus"])
     parser.add_argument("--num_pd", default=100, type=int)
     parser.add_argument("--dim_pcd", default=2, type=int)
     parser.add_argument("--scale", default=True,
@@ -135,15 +135,15 @@ def main():
                     vec_range=np.array([0, 0.15]))
             # "../matern/pcd2_intensity200_radius003_num100/type1_3.png"
 
-    elif name_data == "circle_svm":
+    elif name_data == "circle":
         name_dir_plot = "%s/plot_pd%s_pcd3_num%s" % (
             name_dir_data, dim_pd, num_pd)
         functions.mkdir_os(name_dir_plot)
-        # "../circle_svm/plot_pd1_pcd3_num200"
+        # "../circle/plot_pd1_pcd3_num200"
         name_dir_pcd = "%s/pcd3_num%s" % (name_dir_data, num_pd)
-        # "../circle_svm/pcd3_num200"
+        # "../circle/pcd3_num200"
         list_pd = make_list_pd(name_dir_pcd, num_plot, dim_pd, scale=scale)
-        plot_pd(name_dir_plot, "cricle_svm", list_pd,
+        plot_pd(name_dir_plot, "cricle", list_pd,
                 vec_range=np.array([0, 15]))
 
     elif name_data == "torus":

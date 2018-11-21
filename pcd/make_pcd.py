@@ -6,7 +6,7 @@ import os
 import functions
 import lattice
 import matern
-import circle_svm
+import circle
 import torus
 
 
@@ -15,7 +15,7 @@ def main():
     parser.add_argument("--path",
                         default="%s/Desktop/data_tda" % os.path.expanduser('~'))
     parser.add_argument("--data", default="lattice",
-                        choices=["lattice", "matern", "circle_svm", "torus"])
+                        choices=["lattice", "matern", "circle", "torus"])
     parser.add_argument("--num_pd", default=100, type=int)
     parser.add_argument("--dim_pcd", default=2, type=int)
     parser.add_argument("--side", default=20, type=int, help="for lattice")
@@ -48,9 +48,9 @@ def main():
                         name_dir_data)
         matern.plot_pcd(dim_pcd, num_intensity, val_radius, 10, name_dir_data)
 
-    elif name_data == "circle_svm":
-        circle_svm.make_pcd(num_pd, name_dir_data)
-        circle_svm.plot_pcd(10, name_dir_data)
+    elif name_data == "circle":
+        circle.make_pcd(num_pd, name_dir_data)
+        circle.plot_pcd(10, name_dir_data)
 
     elif name_data == "torus":
         torus.make_pcd(num_sample, num_pd, name_dir_data)
