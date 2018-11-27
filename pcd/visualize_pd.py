@@ -68,8 +68,7 @@ def plot_pd(name_dir_plot, name_pcd, list_pd, vec_range=None):
         plt.close()
 
 
-def main():
-    print("saving pd as png")
+def parser_():
     parser = argparse.ArgumentParser()
     parser.add_argument("--path",
                         default="%s/Desktop/data_tda" % os.path.expanduser('~'))
@@ -85,8 +84,12 @@ def main():
     parser.add_argument("--sample", default=500, type=int, help="for torus")
     parser.add_argument("--dim_pd", default=1, type=int, help="for plot")
     parser.add_argument("--num_plot", default=10, type=int, help="for plot")
+    return parser.parse_args()
 
-    args = parser.parse_args()
+
+def main():
+    print("saving pd as png")
+    args = parser_()
     name_dir = args.path
     name_data = args.data
     num_pd = args.num_pd

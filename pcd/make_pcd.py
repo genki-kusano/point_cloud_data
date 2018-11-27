@@ -10,7 +10,7 @@ import circle
 import torus
 
 
-def main():
+def parser_():
     parser = argparse.ArgumentParser()
     parser.add_argument("--path",
                         default="%s/Desktop/data_tda" % os.path.expanduser('~'))
@@ -22,8 +22,11 @@ def main():
     parser.add_argument("--intensity", default=100, type=int, help="for matern")
     parser.add_argument("--radius", default=0.03, type=float, help="for matern")
     parser.add_argument("--sample", default=500, type=int, help="for torus")
+    return parser.parse_args()
 
-    args = parser.parse_args()
+
+def main():
+    args = parser_()
     name_dir = args.path
     name_data = args.data
     num_pd = args.num_pd
