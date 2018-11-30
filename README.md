@@ -50,7 +50,7 @@ This classification problem is difficut to solve correctly because important fea
 
 ## torus
 `sh compute_pd.sh --data --lattice`
-This is a simulation dataset used in `about_torus.pdf` and the resulting dataset will be seen as `torus.zip`
+This is a simulation dataset used in https://github.com/genki-kusano/point_cloud_data/blob/master/about_torus.pdf and the resulting dataset will be seen as `torus.zip`
 
 I prepare this dataset in order to apply the principal component analysis and a time series analysis for persistence diagrams.
 `~/pcd/torus/pcd3_num_40/pcd_pd/pcd_0.txt` is a sphere and `~/pcd/torus/pcd3_num_40/pcd_pd/pcd_39.txt` is a torus (see also `~/pcd/torus/plot_pcd3_sample500_num40`).
