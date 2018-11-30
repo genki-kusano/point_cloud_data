@@ -14,13 +14,13 @@ Then, `data_tda` folder is created on your desktop.<br>
 
 This folder contains 
 - point cloud data as m * d matrix where m is the number of points of \mathbb{R}^d<br>
-  (~/pcd/torus/pcd3_num_40/pcd_pd/pcd_3.txt)
+  (`~/pcd/torus/pcd3_num_40/pcd_pd/pcd_3.txt`)
 - persistence diagram as n * 2 matrix where m is the number of birth-death pairs<br>
-  (~/pcd/torus/pcd3_num_40/pcd_pd/dim1_3.txt, dim1 means the dimension of homology)
+  (`~/pcd/torus/pcd3_num_40/pcd_pd/dim1_3.txt`, dim1 means the dimension of homology)
 - picture of point cloud data<br>
-  (~/pcd/torus/plot_pcd3_num_40/pcd_pd/pcd_3.txt)
+  (`~/pcd/torus/plot_pcd3_num_40/pcd_pd/pcd_3.txt`)
 - picture of persistence diagram<br>
-  (~/pcd/torus/plot_pd1_pcd3_num_40/pcd_pd/pcd_3.txt)
+  (`~/pcd/torus/plot_pd1_pcd3_num_40/pcd_pd/pcd_3.txt`)
 
 # Detailed explanations
 I will explain these codes later (as of Nov 30, 2018)<br>
