@@ -71,9 +71,9 @@ def plot_pcd(num_pd, name_dir_data):
             pass
 
         mat_pcd = make_circle(vec_center, val_radius, num_points)
-        idx_label = "t"
+        idx_label = "f"
         if np.random.rand(1) > 0.5:
-            idx_label = "f"
+            idx_label = "t"
             mat_pcd = np.r_[mat_pcd, make_circle([0, 0], 0.2, 10)]
         else:
             pass

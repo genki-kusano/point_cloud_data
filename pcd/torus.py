@@ -43,7 +43,7 @@ def make_pcd(num_sample, num_pd, name_dir_data):
 def plot_pcd(num_sample, num_pd, name_dir_data):
     print("saving pcd as png")
     val_r_small = 2
-    name_dir_plot = "%s/plot_pcd3__sample%s_num%s" % (
+    name_dir_plot = "%s/plot_pcd3_sample%s_num%s" % (
         name_dir_data, num_sample, num_pd)
     functions.mkdir_os(name_dir_plot)
     # "../torus/plot_pcd3_sample500_num40"
